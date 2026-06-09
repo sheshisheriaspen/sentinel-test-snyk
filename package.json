@@ -1,0 +1,18 @@
+{
+  "name": "sentinel-test-snyk",
+  "version": "1.0.0",
+  "description": "Test app with vulnerable dependencies for Snyk scanner integration testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.19",
+    "moment": "2.29.0",
+    "request": "2.88.0"
+  },
+  "author": "Sentinel Integration Tests",
+  "license": "MIT"
+}
